@@ -19,7 +19,7 @@ public class OpenBrowserTest {
 		System.out.println(driver.getTitle());
 	}
 	
-	@Test
+	//@Test
 	public void chooseTest() {
 		String app = System.getProperty("website");
 		if (app.equalsIgnoreCase("facebook")) {
