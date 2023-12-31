@@ -2,9 +2,10 @@ package Jenkins;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.Test;
 
-public class Test {
-	@org.testng.annotations.Test
+public class DemoTest {
+	@Test
 	public void testA() {
 		String un=System.getProperty("username");
 		System.out.println(un);
