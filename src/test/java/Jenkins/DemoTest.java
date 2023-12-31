@@ -12,5 +12,7 @@ public class DemoTest {
 		System.out.println("Hi");
 		System.out.println("Hello");
 		WebDriver driver=new ChromeDriver();
+		driver.get("https://www.google.com");
+		System.out.println(driver.getTitle());
 	}
 }
