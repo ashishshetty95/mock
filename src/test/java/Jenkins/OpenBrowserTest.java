@@ -17,6 +17,7 @@ public class OpenBrowserTest {
 		WebDriver driver=new ChromeDriver();
 		driver.get("https://www.facebook.com");
 		System.out.println(driver.getTitle());
+		System.out.println("Poll SCM");
 	}
 	
 	//@Test
