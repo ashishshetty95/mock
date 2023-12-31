@@ -1,5 +1,8 @@
 package Jenkins;
 
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
 public class Test {
 	@org.testng.annotations.Test
 	public void testA() {
@@ -7,5 +10,6 @@ public class Test {
 		System.out.println(un);
 		System.out.println("Hi");
 		System.out.println("Hello");
+		WebDriver driver=new ChromeDriver();
 	}
 }
